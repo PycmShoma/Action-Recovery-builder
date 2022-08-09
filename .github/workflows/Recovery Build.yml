@@ -26,10 +26,11 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
+        default: 'https://github.com/TeamWin/android_device_qcom_common'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
-        default: 'https://github.com/TeamWin/android_device_qcom_common'
+        default: 'device/qcom/common'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
