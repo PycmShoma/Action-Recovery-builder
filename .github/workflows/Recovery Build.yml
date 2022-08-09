@@ -38,7 +38,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_cepheus_eng'
+        default: 'omni_cepheus'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
