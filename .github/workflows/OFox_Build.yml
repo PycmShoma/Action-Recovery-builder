@@ -18,11 +18,11 @@ env:
   Rec_name: Ofox
   Rec_ver: "11.0"
   Rec_url: https://gitlab.com/OrangeFox/sync.git -b master
-  device: spes
+  device: cepheus
   DT_url: https://gitlab.com/OrangeFox/device/cepheus -b twrp-9
   DT_path: device/xiaomi/cepheus
   ProductFileHeader: twrp
-  target: bootimage
+  target: recovery
   WorkSpace: WorkSpace
   TZ: Europe/Moscow
   Author: ${{github.actor}}
