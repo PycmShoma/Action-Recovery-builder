@@ -1,4 +1,4 @@
-name: TWRP 12 Build
+name: TWRP 12.1 Build
 
 on:
   workflow_dispatch:
