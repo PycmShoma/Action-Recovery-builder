@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Peter-Levine/android_device_google_cheetah'
+        default: 'https://github.com/PycmShoma/android_device_google_cheetah'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -26,11 +26,9 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
-        default: 'https://github.com/Peter-Levine/android_device_google_gs201'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
-        default: 'device/google/gs201-common'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
@@ -42,7 +40,7 @@ on:
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'recovery'
+        default: 'vendorbootimage'
 
 jobs:
   build:
